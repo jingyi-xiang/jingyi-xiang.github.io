@@ -37,7 +37,7 @@ This page lists my research experiences.
 ---
 * Collaborated with other researchers in the group to create [COCOpen](https://rmdlo.github.io/COCOpen-OpenCV/), an open-source library that automatically generates datasets of color images with objects of interest, labeled with object instance segmentation masks, bounding boxes, and category identification.
 * Developed a new deformable linear object tracking algorithm, TrackDLO, for robust deformable linear object tracking under occlusion and incomplete data input.
-* Developed the open-source [TrackDLO ROS (Robot Operating System)](https://github.com/RMDLO/trackdlo) package with the TrackDLO algorithm implemented in both C++.
+* Developed the open-source [TrackDLO ROS (Robot Operating System) package](https://github.com/RMDLO/trackdlo) with the TrackDLO algorithm implemented in both C++.
 * Delivered two hour-long research presentations to the Bretl Research Group on the topic of deformable object perception and tracking (Presentation slides: [Fall 2022](https://jingyi-xiang.github.io/assets/pdf/BRG_Fall_2022.pdf), [Spring 2023](https://jingyi-xiang.github.io/assets/pdf/BRG_Spring_2023.pdf)).
 * Completed a paper on the TrackDLO algorithm which was accepted into the IEEE Robotics and Automation Letters (RA-L).
 * Completed an extended abstract on simultaneous multi-DLO tracking and presented the below poster at IEEE International Conference on Robotics and Automation (ICRA) Workshop on Representing and Manipulating Deformable Objects.
