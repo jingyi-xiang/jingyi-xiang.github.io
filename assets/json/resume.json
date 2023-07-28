@@ -15,7 +15,7 @@
       "summary": "Assisting the Illinois Office of Undergraduate Research in promoting undergraduate research on campus."
     },
     {
-      "name": "UIUC Bretl Research Group",
+      "name": "Bretl Research Group",
       "position": "Undergraduate Researcher",
       "startDate": "2022-01",
       "summary": "Developed an occlusion-robust deformable linear object tracking pipeline and incorporated multi-object tracking. Assisted in developing deformable object perception capabilities for autonomous robotic caretakers by performing data augmentation on the collected datasets. See the Research tab for more details.",

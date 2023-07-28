@@ -7,41 +7,13 @@ nav: true
 nav_order: 4
 ---
 
-See below for my research experiences.
-
-##### **Undergraduate Research Apprenticeship Program (Spring 2022)**
----
-* Selected as one of the 60 participants from a pool of more than 500 applicants to work with a graduate student mentor on research projects.
-* Implemented the Copy-Paste Augmentation method in an automated dataset generation process to scale the amount of available training data and to eliminate the time-consuming process of manual image annotation.
-* Identified, implemented, and evaluated two state-of-the-art deformable linear object instance segmentation algorithms.
-* Used the instance segmentation masks output from Mask R-CNN to segment featureless point clouds in stereo depth imagery.
-* Presented a [poster](https://jingyi-xiang.github.io/assets/pdf/poster_urs22.pdf) at the 2022 UIUC Undergraduate Research Symposium.
-
-##### <u>Highlights
-<p align="center">
-    <img src="../assets/img/segmentation_rgb_pc.png" height="360" /> <img src="../assets/img/poster_urs22.png" height="360" />
-</p>
-From left to right, top to bottom:
-1. The RGB cable instance segmentation result and the corresponding segmented point cloud produced by a trained Mask R-CNN model.
-2. My poster presented at the 2022 Undergraduate Research Symposium.
+See below for my research experiences listed in reverse chronological order.
 
 &nbsp;
 
-##### **Illinois Space Grant Consortium's Undergraduate Research Opportunity Program (Summer 2022)**
+##### **Senior Thesis (Fall 2023 - Spring 2024)**
 ---
-* Selected to participate in a paid 10-week summer research program.
-* Designed and 3D printed custom camera mounts for linking the camera and the robot end-effector.
-* Calibrated our hardware system with fiducial markers and two eye-in-hand camera calibration algorithms: the Tsai-Lenz algorithm and a recently published method based on pose graph optimization.
-* Basing off of point set registration algorithm [Global-Local Toplogy Preservation](https://www.cv-foundation.org/openaccess/content_cvpr_workshops_2014/W04/papers/Ge_Non-rigid_Point_Set_2014_CVPR_paper.pdf), developed a new method for tracking multiple deformable linear objects simultaneously without contiuous instance segmentation.
-* Delivered a 15-minute presentation at the program symposium.
-
-##### <u>Highlights
-<p align="center">
-    <img src="../assets/img/wire_stacked_pc.png" height="280" /> <img src="../assets/img/gmm_cpd.png" height="280" />
-</p>
-From left to right, top to bottom:
-1. The point cloud of an ethernet cable produced by stitching together several point clouds taken from different perspectives.
-2. I implemented Gaussian Mixture Model (GMM) clustering and Coherent Point Drift (CPD) from scratch and compared their performance for point set registration under occlusion.
+* In progress :)
 
 &nbsp;
 
@@ -57,19 +29,58 @@ From left to right, top to bottom:
 
 ##### <u>Highlights
 <p align="center">
-    <img src="../assets/img/dlo.jpg" height="280" /> <img src="../assets/img/multidlo_result.png" height="280" />
+    <img src="../assets/img/dlo.jpg" height="170" /> <img src="../assets/img/multidlo_result.png" height="170" />
 </p>
 <p align="center">
-    <img src="../assets/img/multi_dlo_poster.png" height="279" /> <img src="../assets/img/poster_urs23.png" height="279" />
+    <img src="../assets/img/multi_dlo_poster.png" height="278" /> <img src="../assets/img/poster_urs23.png" height="278" />
 </p>
 From left to right, top to bottom:
-1. We ran the TrackDLO algorithm on a rope posed to resemble the word "DLO" (**D**eformable **L**inear **O**bject).
+1. We ran our TrackDLO algorithm on a rope posed to resemble the word "DLO" (**D**eformable **L**inear **O**bject).
 2. Our [multi-dlo package](https://github.com/RMDLO/multi-dlo) successfully tracks three identical blue ropes twisted together.
 3. Our poster presented at the ICRA 2023 Workshop on Representing and Manipulating Deformable Objects.
-4. My poster presented at the 2023 Undergraduate Research Symposium.
+4. My poster presented at the 2023 UIUC Undergraduate Research Symposium.
 
 &nbsp;
 
-##### **Senior Thesis (Fall 2023 - Spring 2024)**
+##### **Illinois Space Grant Consortium's Undergraduate Research Opportunity Program (Summer 2022)**
 ---
-* In progress :)
+* Selected to participate in a paid 10-week summer research program with the Bretl Research Group.
+* Designed and 3D printed custom camera mounts for linking the camera and the robot end-effector.
+* Calibrated our hardware system with fiducial markers and two eye-in-hand camera calibration algorithms: the Tsai-Lenz algorithm and a recently published method based on pose graph optimization.
+* Basing off of point set registration algorithm [Global-Local Toplogy Preservation](https://www.cv-foundation.org/openaccess/content_cvpr_workshops_2014/W04/papers/Ge_Non-rigid_Point_Set_2014_CVPR_paper.pdf), developed a new method for tracking multiple deformable linear objects simultaneously without contiuous instance segmentation.
+* Delivered a 15-minute presentation at the program symposium.
+
+##### <u>Highlights
+<p align="center">
+    <img src="../assets/img/wire_stacked_pc.png" height="280" /> <img src="../assets/img/gmm_cpd.png" height="280" />
+</p>
+From left to right, top to bottom:
+1. The point cloud of an ethernet cable produced by stitching together several point clouds taken from different perspectives.
+2. I implemented Gaussian Mixture Model (GMM) clustering and Coherent Point Drift (CPD) from scratch and compared their performance for point set registration under occlusion.
+
+&nbsp;
+
+##### **Undergraduate Research Apprenticeship Program (Spring 2022)**
+---
+* Selected as one of the 60 participants from a pool of more than 500 applicants to work with a graduate student mentor on research projects.
+* Implemented the Copy-Paste Augmentation method in an automated dataset generation process to scale the amount of available training data and to eliminate the time-consuming process of manual image annotation.
+* Identified, implemented, and evaluated two state-of-the-art deformable linear object instance segmentation algorithms.
+* Used the instance segmentation masks output from Mask R-CNN to segment featureless point clouds in stereo depth imagery.
+* Presented a [poster](https://jingyi-xiang.github.io/assets/pdf/poster_urs22.pdf) at the 2022 UIUC Undergraduate Research Symposium.
+
+##### <u>Highlights
+<p align="center">
+    <img src="../assets/img/segmentation_rgb_pc.png" height="300" /> <img src="../assets/img/poster_urs22.png" height="300" />
+</p>
+From left to right, top to bottom:
+1. The RGB cable instance segmentation result and the corresponding segmented point cloud produced by a trained Mask R-CNN model.
+2. My poster presented at the 2022 UIUC Undergraduate Research Symposium.
+
+&nbsp;
+
+##### **Bonus**
+---
+Here is a quick sketch I did when taking a break from research.
+<p align="left">
+    <img src="../assets/img/sketch.jpg" height="300" />
+</p>
