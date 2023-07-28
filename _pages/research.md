@@ -81,6 +81,6 @@ From left to right, top to bottom:
 ##### **Bonus**
 ---
 Here is a quick sketch I did when taking a break from research.
-<p align="left">
-    <img src="../assets/img/sketch.jpg" height="300" />
+<p align="center">
+    <img src="../assets/img/sketch.jpg" height="280" /> <img src="../assets/img/sketch.png" height="280" />
 </p>
