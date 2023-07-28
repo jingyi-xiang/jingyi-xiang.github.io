@@ -40,7 +40,7 @@ This page lists my research experiences.
 * Developed the open-source [TrackDLO ROS (Robot Operating System) package](https://github.com/RMDLO/trackdlo) with the TrackDLO algorithm implemented in both C++.
 * Delivered two hour-long research presentations to the Bretl Research Group on the topic of deformable object perception and tracking (Presentation slides: [Fall 2022](https://jingyi-xiang.github.io/assets/pdf/BRG_Fall_2022.pdf), [Spring 2023](https://jingyi-xiang.github.io/assets/pdf/BRG_Spring_2023.pdf)).
 * Completed a paper on the TrackDLO algorithm which was accepted into the IEEE Robotics and Automation Letters (RA-L).
-* Completed an extended abstract on simultaneous multi-DLO tracking and presented the below poster at IEEE International Conference on Robotics and Automation (ICRA) Workshop on Representing and Manipulating Deformable Objects.
+* Completed an extended abstract on simultaneous multi-DLO tracking and presented the below [poster](https://jingyi-xiang.github.io/assets/pdf/multi_dlo_poster.pdf) at IEEE International Conference on Robotics and Automation (ICRA) Workshop on Representing and Manipulating Deformable Objects.
 <p align="center">
     <img src="../assets/img/multi_dlo_poster.png" width="700" />
 </p>
