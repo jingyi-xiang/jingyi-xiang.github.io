@@ -29,7 +29,7 @@ See below for my research experiences listed in reverse chronological order.
 
 ##### <u>Highlights
 <p align="center">
-    <img src="../assets/img/dlo.jpg" height="170" /> <img src="../assets/img/multidlo_result.png" height="170" />
+    <img src="../assets/img/dlo.jpg" height="175" /> <img src="../assets/img/multidlo_result.png" height="175" />
 </p>
 <p align="center">
     <img src="../assets/img/multi_dlo_poster.png" height="278" /> <img src="../assets/img/poster_urs23.png" height="278" />
