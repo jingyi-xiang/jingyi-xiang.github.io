@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Undergraduate Researcher, University of Illinois at Urbana-Champaign
+subtitle: Pronounced as Jee-ing Yi (first name, two syllables) She-aang (last name)
 
 profile:
   align: right
