@@ -2,14 +2,10 @@
 layout: page
 permalink: /research/
 title: Research
-description: 
+description: My research experiences listed in reverse chronological order.
 nav: true
 nav_order: 4
 ---
-
-See below for my research experiences listed in reverse chronological order.
-
-&nbsp;
 
 ##### **Senior Thesis (Fall 2023 - Spring 2024)**
 ---
@@ -46,7 +42,7 @@ From left to right, top to bottom:
 ---
 * Selected to participate in a paid 10-week summer research program with the Bretl Research Group.
 * Designed and 3D printed custom camera mounts for linking the camera and the robot end-effector.
-* Calibrated our hardware system with fiducial markers and two eye-in-hand camera calibration algorithms: the Tsai-Lenz algorithm and a recently published method based on pose graph optimization.
+* Calibrated our hardware system with fiducial markers and two eye-in-hand camera calibration algorithms: the [Tsai-Lenz method](https://web.archive.org/web/20140211090216id_/http://www-old.me.gatech.edu:80/me6406/handeye.pdf) and a [pose graph optimization based method](https://ieeexplore.ieee.org/abstract/document/8616862).
 * Basing off of point set registration algorithm [Global-Local Toplogy Preservation](https://www.cv-foundation.org/openaccess/content_cvpr_workshops_2014/W04/papers/Ge_Non-rigid_Point_Set_2014_CVPR_paper.pdf), developed a new method for tracking multiple deformable linear objects simultaneously without contiuous instance segmentation.
 * Delivered a 15-minute presentation at the program symposium.
 
@@ -56,15 +52,15 @@ From left to right, top to bottom:
 </p>
 From left to right, top to bottom:
 1. The point cloud of an ethernet cable produced by stitching together several point clouds taken from different perspectives.
-2. I implemented Gaussian Mixture Model (GMM) clustering and Coherent Point Drift (CPD) from scratch and compared their performance for point set registration under occlusion.
+2. I implemented Gaussian Mixture Model (GMM) clustering and [Coherent Point Drift](https://proceedings.neurips.cc/paper/2006/file/3b2d8f129ae2f408f2153cd9ce663043-Paper.pdf) (CPD) from scratch and compared their performance for point set registration under occlusion.
 
 &nbsp;
 
 ##### **Undergraduate Research Apprenticeship Program (Spring 2022)**
 ---
 * Selected as one of the 60 participants from a pool of more than 500 applicants to work with a graduate student mentor on research projects.
-* Implemented the Copy-Paste Augmentation method in an automated dataset generation process to scale the amount of available training data and to eliminate the time-consuming process of manual image annotation.
-* Identified, implemented, and evaluated two state-of-the-art deformable linear object instance segmentation algorithms.
+* Implemented the [Copy-Paste Augmentation method](https://openaccess.thecvf.com/content/CVPR2021/papers/Ghiasi_Simple_Copy-Paste_Is_a_Strong_Data_Augmentation_Method_for_Instance_CVPR_2021_paper.pdf) in an automated dataset generation process to scale the amount of available training data and to eliminate the time-consuming process of manual image annotation.
+* Identified, implemented, and evaluated two state-of-the-art deformable linear object instance segmentation algorithms ([Ariadne](https://link.springer.com/chapter/10.1007/978-3-030-20890-5_42) and [Ariadne+](https://ieeexplore.ieee.org/abstract/document/9721686)).
 * Used the instance segmentation masks output from Mask R-CNN to segment featureless point clouds in stereo depth imagery.
 * Presented a [poster](https://jingyi-xiang.github.io/assets/pdf/poster_urs22.pdf) at the 2022 UIUC Undergraduate Research Symposium.
 
@@ -81,6 +77,7 @@ From left to right, top to bottom:
 ##### **Bonus**
 ---
 Here is a quick sketch I did when taking a break from research.
-<p align="center">
-    <img src="../assets/img/sketch.jpg" height="280" /> <img src="../assets/img/sketch.png" height="280" />
+<p align="left">
+    <img src="../assets/img/sketch.jpg" height="300" /> 
+    <!-- <img src="../assets/img/sketch.png" height="280" /> -->
 </p>
