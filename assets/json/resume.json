@@ -4,7 +4,8 @@
       "institution": "University of Illinois at Urbana-Champaign",
       "studyType": "Bachelor of Science in Electrical Engineering",
       "startDate": "2020-08",
-      "endDate": "2024-05"
+      "endDate": "2024-05",
+      "courses": "Dean's List: Fall 2020, Spring 2021, Fall 2021, Spring 2022"
     },
     {
       "institution": "The John Carroll School",
@@ -41,6 +42,11 @@
     }
   ],
   "awards": [
+    {
+      "title": "Indira Gunda Saladi Engineering Research Prize",
+      "date": "2023-08",
+      "awarder": "Department of Electrical and Computer Engineering, University of Illinois at Urbana-Champaign"
+    },
     {
       "title": "Ellery B. Paine Outstanding Junior Award",
       "date": "2023-03",

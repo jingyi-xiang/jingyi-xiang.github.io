@@ -76,7 +76,7 @@ From left to right, top to bottom:
 
 ##### **Bonus**
 ---
-Here is a quick sketch I did when taking a break from research.
+Here is a quick sketch I did while taking a break from research.
 <p align="left">
     <img src="../assets/img/sketch.jpg" height="300" /> 
     <!-- <img src="../assets/img/sketch.png" height="280" /> -->

@@ -7,6 +7,7 @@ nav: true
 nav_order: 6
 ---
 
+---
 **Game Objective:** Picking up and stacking plastic cubes. \\
 **Robot Videos:** [Playlist](https://www.youtube.com/watch?v=2yH0XbTgVOY&list=PLOVSIsYOyOF3BGpvA9BS9q3m-NSgKIeYY&index=1)
 
