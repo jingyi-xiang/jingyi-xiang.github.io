@@ -5,7 +5,7 @@
       "studyType": "Bachelor of Science in Electrical Engineering",
       "startDate": "2020-08",
       "endDate": "2024-05",
-      "courses": "Dean's List: Fall 2020, Spring 2021, Fall 2021, Spring 2022"
+      "courses": ["Minor: Computer Science", "Dean's List: Fall 2020, Spring 2021, Fall 2021, Spring 2022"]
     },
     {
       "institution": "The John Carroll School",
@@ -19,25 +19,32 @@
       "name": "Illinois Office of Undergraduate Research",
       "position": "Illinois Undergraduate Research Ambassador",
       "startDate": "2023-03",
-      "summary": "Assisting the Illinois Office of Undergraduate Research in promoting undergraduate research on campus."
+      "summary": "Assisting the Illinois Office of Undergraduate Research in promoting undergraduate research on campus.",
+      "highlights": [
+        "Held peer mentoring meetings to guide underclassmen through the process of finding research opportunities.",
+        "Assisted workshops that aim to introduce undergraduate research to new students.",
+        "Represented and assisted the Illinois Office of Undergraduate Research in campus-wide events to promote undergraduate research on campus."
+      ]
     },
     {
       "name": "Bretl Research Group",
       "position": "Undergraduate Researcher",
       "startDate": "2022-01",
-      "summary": "Developed an occlusion-robust deformable linear object tracking pipeline and incorporated multi-object tracking. Assisted in developing deformable object perception capabilities for autonomous robotic caretakers by performing data augmentation on the collected datasets. See the Research tab for more details.",
-      "highlights": [
-        "Robotics", "Computer Vision"
-      ]
+      "summary": "Advisor: Dr. Timothy Bretl, Professor of Aerospace Engineering",
+      "highlights": "See the Research tab for more details."
     },
     {
       "name": "Illini VEX Robotics",
-      "position": "Competition Team Lead",
+      "position": "Co-Founder & Competition Team Lead",
       "startDate": "2020-08",
       "endDate": "2023-03",
-      "summary": "Created interactive guides in Jupyter Notebook for new member onboarding and collaborated with teams from other institutions to create a knowledge base for competitive robotics.",
       "highlights": [
-        "Student Organization"
+        "Collaborated with teams from other institutions to create a knowledge base for competitive robotics.",
+        "Mentored high school teams in the community to help them get started in robot programming.",
+        "Organized and held weekly team events such as build meetings, social events, workshops, and general meetings to create team bonding.",
+        "Documented the progress of the team in an engineering notebook and delivered presentations to professional engineers during robotics tournaments.",
+        "Created guides and documentation for new member onboarding.",
+        "Oversaw robot design, manufacturing, and programming."
       ]
     }
   ],
@@ -59,7 +66,7 @@
     },
     {
       "title": "A.R. ”Buck” Knight Scholarship",
-      "date": "2022-09",
+      "date": "2022-09, 2023-08",
       "awarder": "Department of Electrical and Computer Engineering, University of Illinois at Urbana-Champaign"
     },
     {
