@@ -19,8 +19,8 @@ nav_order: 4
 * Developed a new deformable linear object tracking algorithm, TrackDLO, for robust deformable linear object tracking under occlusion and incomplete data input.
 * Developed the open-source [TrackDLO ROS (Robot Operating System) package](https://github.com/RMDLO/trackdlo) with the TrackDLO algorithm implemented in C++.
 * Delivered two hour-long research presentations to the Bretl Research Group on the topic of deformable object perception and tracking (Presentation slides: [Fall 2022](https://jingyi-xiang.github.io/assets/pdf/BRG_Fall_2022.pdf), [Spring 2023](https://jingyi-xiang.github.io/assets/pdf/BRG_Spring_2023.pdf)).
-* Completed a paper on the TrackDLO algorithm which was accepted into the IEEE Robotics and Automation Letters (RA-L).
-* Completed an extended abstract on simultaneous multi-DLO tracking and presented a [poster](https://jingyi-xiang.github.io/assets/pdf/multi_dlo_poster.pdf) at IEEE International Conference on Robotics and Automation (ICRA) Workshop on Representing and Manipulating Deformable Objects.
+* Completed a [paper](https://ieeexplore.ieee.org/document/10214157) on the TrackDLO algorithm which was accepted into the IEEE Robotics and Automation Letters (RA-L).
+* Completed an [extended abstract](https://jingyi-xiang.github.io/assets/pdf/multidlo.pdf) on simultaneous multi-DLO tracking and presented a [poster](https://jingyi-xiang.github.io/assets/pdf/multi_dlo_poster.pdf) at the IEEE International Conference on Robotics and Automation (ICRA) Workshop on Representing and Manipulating Deformable Objects.
 * Presented a [poster](https://jingyi-xiang.github.io/assets/pdf/poster_urs23.pdf) on the TrackDLO algorithm at the 2023 UIUC Undergraduate Research Symposium.
 
 ##### <u>Highlights
@@ -33,8 +33,24 @@ nav_order: 4
 From left to right, top to bottom:
 1. We ran our TrackDLO algorithm on a rope posed to resemble the word "DLO" (**D**eformable **L**inear **O**bject).
 2. Our [multi-dlo package](https://github.com/RMDLO/multi-dlo) successfully tracks three identical blue ropes twisted together.
-3. Our poster presented at the ICRA 2023 Workshop on Representing and Manipulating Deformable Objects.
-4. My poster presented at the 2023 UIUC Undergraduate Research Symposium.
+3. Our [poster](https://jingyi-xiang.github.io/assets/pdf/multi_dlo_poster.pdf) presented at the ICRA 2023 Workshop on Representing and Manipulating Deformable Objects.
+4. My [poster](https://jingyi-xiang.github.io/assets/pdf/poster_urs23.pdf) presented at the 2023 UIUC Undergraduate Research Symposium.
+
+&nbsp;
+
+##### **CS 498 Machine Perception Class Project (Spring 2022)**
+---
+* Implemented a recently published non-rigid registration algorithm, [Geodesic-Based Bayesian Coherent Point Drift](https://ieeexplore.ieee.org/abstract/document/9918058), in both Python and C++.
+* Integrated the Geodesic-Based Bayesian Coherent Point Drift algorithm into TrackDLO, the deformable linear object tracking algorithm that was being developed by me during the time, to improve the tracking performance in edge cases.
+* [Final Report](https://jingyi-xiang.github.io/assets/pdf/CS_498_Project_Report.pdf) and [code](https://github.com/jingyi-xiang/bcpd-dlo-tracking).
+
+##### <u>Highlights
+<p align="center">
+    <img src="../assets/img/gbcpd_tracking.png" height="240" /> <img src="../assets/img/algo_block.png" height="240" />
+</p>
+From left to right, top to bottom:
+1. A demonstration of deformable linear object shape tracking under occlusion.
+2. I attempted to introduce a new cost term into Geodesic-Based Bayesian Coherent Point Drift, but was only able to finish half of the math derivation during the project time frame. I came up with this algorithm to get around the unfinished derivation so I could showcase my results. But this picture is here mainly because I needed two pictures to make the page look nicer.
 
 &nbsp;
 
@@ -43,7 +59,7 @@ From left to right, top to bottom:
 * Selected to participate in a paid 10-week summer research program with the Bretl Research Group.
 * Designed and 3D printed custom camera mounts for linking the camera and the robot end-effector.
 * Calibrated our hardware system with fiducial markers and two eye-in-hand camera calibration algorithms: the [Tsai-Lenz method](https://web.archive.org/web/20140211090216id_/http://www-old.me.gatech.edu:80/me6406/handeye.pdf) and a [pose graph optimization based method](https://ieeexplore.ieee.org/abstract/document/8616862).
-* Basing off of point set registration algorithm [Global-Local Toplogy Preservation](https://www.cv-foundation.org/openaccess/content_cvpr_workshops_2014/W04/papers/Ge_Non-rigid_Point_Set_2014_CVPR_paper.pdf), developed a new method for tracking multiple deformable linear objects simultaneously without contiuous instance segmentation.
+* Basing off of point set registration algorithm [Global-Local Topology Preservation](https://www.cv-foundation.org/openaccess/content_cvpr_workshops_2014/W04/papers/Ge_Non-rigid_Point_Set_2014_CVPR_paper.pdf), developed a new method for tracking multiple deformable linear objects simultaneously without continuous instance segmentation.
 * Delivered a 15-minute presentation at the program symposium.
 
 ##### <u>Highlights
@@ -62,6 +78,7 @@ From left to right, top to bottom:
 * Implemented the [Copy-Paste Augmentation method](https://openaccess.thecvf.com/content/CVPR2021/papers/Ghiasi_Simple_Copy-Paste_Is_a_Strong_Data_Augmentation_Method_for_Instance_CVPR_2021_paper.pdf) in an automated dataset generation process to scale the amount of available training data and to eliminate the time-consuming process of manual image annotation.
 * Identified, implemented, and evaluated two state-of-the-art deformable linear object instance segmentation algorithms ([Ariadne](https://link.springer.com/chapter/10.1007/978-3-030-20890-5_42) and [Ariadne+](https://ieeexplore.ieee.org/abstract/document/9721686)).
 * Used the instance segmentation masks output from Mask R-CNN to segment featureless point clouds in stereo depth imagery.
+* Presented our deformable linear object instance segementation results with an [extended abstract](https://jingyi-xiang.github.io/assets/pdf/wire_segmentation.pdf) at the IEEE International Conference on Robotics and Automation (ICRA) Workshop on Representing and Manipulating Deformable Objects.
 * Presented a [poster](https://jingyi-xiang.github.io/assets/pdf/poster_urs22.pdf) at the 2022 UIUC Undergraduate Research Symposium.
 
 ##### <u>Highlights
@@ -70,7 +87,7 @@ From left to right, top to bottom:
 </p>
 From left to right, top to bottom:
 1. The RGB cable instance segmentation result and the corresponding segmented point cloud produced by a trained Mask R-CNN model.
-2. My poster presented at the 2022 UIUC Undergraduate Research Symposium.
+2. My [poster](https://jingyi-xiang.github.io/assets/pdf/poster_urs22.pdf) presented at the 2022 UIUC Undergraduate Research Symposium.
 
 &nbsp;
 
