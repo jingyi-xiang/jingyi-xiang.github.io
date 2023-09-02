@@ -29,8 +29,7 @@ nav_order: 4
 [Summer 2022 (ISGC Undergraduate Research Opportunity Program)](#Summer-2022) \\
 [Spring 2022 (Undergraduate Research Apprenticeship Program)](#Spring-2022)
 
-<!-- [All Deliverables](#deliverables) -->
-
+[All Deliverables](#deliverables)
 
 &nbsp;
 
@@ -99,12 +98,14 @@ nav_order: 4
 * Delivered a 15-minute presentation at the program symposium.
 
 ##### <u>Images
-<p align="center">
+<!-- <p align="center">
     <img src="../assets/img/wire_stacked_pc.png" height="280" /> <img src="../assets/img/gmm_cpd.png" height="280" />
-</p>
-From left to right, top to bottom:
-1. The point cloud of an ethernet cable produced by stitching together several point clouds taken from different perspectives.
-2. I implemented Gaussian Mixture Model (GMM) clustering and [Coherent Point Drift](https://proceedings.neurips.cc/paper/2006/file/3b2d8f129ae2f408f2153cd9ce663043-Paper.pdf) (CPD) from scratch and compared their performance for point set registration under occlusion.
+</p> -->
+(1). The point cloud of an ethernet cable produced by stitching together several point clouds taken from different perspectives:
+<img class="center-fit" src="../assets/img/wire_stacked_pc.png"/> 
+
+(2). I implemented Gaussian Mixture Model (GMM) clustering and [Coherent Point Drift](https://proceedings.neurips.cc/paper/2006/file/3b2d8f129ae2f408f2153cd9ce663043-Paper.pdf) (CPD) from scratch and compared their performance for point set registration under occlusion:
+<img class="center-fit" src="../assets/img/gmm_cpd.png"/> 
 
 &nbsp;
 
@@ -119,16 +120,18 @@ From left to right, top to bottom:
 * Presented a [poster](https://jingyi-xiang.github.io/assets/pdf/poster_urs22.pdf) at the 2022 UIUC Undergraduate Research Symposium.
 
 ##### <u>Images
-<p align="center">
+<!-- <p align="center">
     <img src="../assets/img/segmentation_rgb_pc.png" height="300" /> <img src="../assets/img/poster_urs22.png" height="300" />
-</p>
-From left to right, top to bottom:
-1. The RGB cable instance segmentation result and the corresponding segmented point cloud produced by a trained Mask R-CNN model.
-2. My [poster](https://jingyi-xiang.github.io/assets/pdf/poster_urs22.pdf) presented at the 2022 UIUC Undergraduate Research Symposium.
+</p> -->
+(1). The RGB cable instance segmentation result and the corresponding segmented point cloud produced by a trained Mask R-CNN model:
+<img class="center-fit" src="../assets/img/segmentation_rgb_pc.png"/> 
+
+(2). My poster presented at the 2022 UIUC Undergraduate Research Symposium.
+<a href="https://jingyi-xiang.github.io/assets/pdf/poster_urs22.pdf"><img class="center-fit" src="../assets/img/poster_urs22.png" />
 
 &nbsp;
 
-<!-- <h4 id="deliverables"><strong>A Collection of All Deliverables</strong></h4>
+<h4 id="deliverables"><strong>AAll Deliverables</strong></h4>
 ---
 ##### **Code**
 * [TrackDLO](https://github.com/RMDLO/trackdlo) (ROS Package)
@@ -138,9 +141,9 @@ From left to right, top to bottom:
 
 ##### **Papers and Reports**
 * [TrackDLO: Tracking Deformable Linear Objects Under Occlusion with Motion Coherence](https://ieeexplore.ieee.org/document/10214157) (RA-L Paper)
-* [Simultaneous Shape Tracking of Multiple Deformable Linear Objects with Global-Local Topology Preservation](https://jingyi-xiang.github.io/assets/pdf/multidlo.pdf) (ICRA Workshop Paper)
+* [Simultaneous Shape Tracking of Multiple Deformable Linear Objects with Global-Local Topology Preservation](https://jingyi-xiang.github.io/assets/pdf/multidlo.pdf) (ICRA Workshop Extended Abstract)
 * [Tracking Deformable Linear Objects in RGB-D Imagery with Geodesic-Based Bayesian Coherent Point Drift](https://jingyi-xiang.github.io/assets/pdf/CS_498_Project_Report.pdf) (Class Project Report)
-* [Wire Point Cloud Instance Segmentation from RGBD Imagery with Mask R-CNN](https://jingyi-xiang.github.io/assets/pdf/wire_segmentation.pdf) (ICRA Workshop Paper)
+* [Wire Point Cloud Instance Segmentation from RGBD Imagery with Mask R-CNN](https://jingyi-xiang.github.io/assets/pdf/wire_segmentation.pdf) (ICRA Workshop Extended Abstract)
 
 ##### **Presentations**
 * [Deformable Linear Object Tracking as Non-Rigid Point Set Registration](https://jingyi-xiang.github.io/assets/pdf/BRG_Spring_2023.pdf) (Slides)
@@ -149,13 +152,13 @@ From left to right, top to bottom:
 * [TrackDLO: Tracking Deformable Linear Objects Under Occlusion with Motion Coherence](https://jingyi-xiang.github.io/assets/pdf/poster_urs23.pdf) (Poster)
 * [Wire Instance Perception from RGBD Imagery with Mask R-CNN](https://jingyi-xiang.github.io/assets/pdf/poster_urs22.pdf) (Poster)
 
-&nbsp; -->
+&nbsp;
 
 <!-- ##### **Bonus** -->
 <h4 id="Bonus"><strong>Bonus</strong></h4>
 ---
 Here is a quick sketch I did while taking a break from research.
-<p align="left">
+<!-- <p align="left">
     <img src="../assets/img/sketch.jpg" height="300" /> 
-    <!-- <img src="../assets/img/sketch.png" height="280" /> -->
-</p>
+</p> -->
+<img class="center-fit" src="../assets/img/sketch.jpg"/> 
