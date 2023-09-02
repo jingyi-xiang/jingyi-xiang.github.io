@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Pronounced as Jee-ing Yi (first name, two syllables) She-aang (last name)
+subtitle: Name pronunciation: Jing-Yi She-aang
 
 profile:
   align: right
