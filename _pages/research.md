@@ -7,6 +7,22 @@ nav: true
 nav_order: 4
 ---
 
+<style>
+    /* * {
+        margin: 0;
+        padding: 0;
+    } */
+    /* .imgbox {
+        display: grid;
+        height: 100%;
+    } */
+    .center-fit {
+        max-width: 100%;
+        max-height: 100vh;
+        margin: auto;
+    }
+</style>
+
 [Fall 2023 - Spring 2024 (Senior Thesis)](#Fall-2023-Spring-2024) \\
 [Fall 2022 - Spring 2023 (Independent Study)](#Fall-2022-Spring-2023) \\
 [Spring 2023 (Class Project)](#Spring-2023) \\
@@ -28,26 +44,32 @@ nav_order: 4
 <!-- ##### **ECE Independent Study with the Bretl Research Group (Fall 2022 - Spring 2023)** -->
 <h4 id="Fall-2022-Spring-2023"><strong>ECE Independent Study with the Bretl Research Group (Fall 2022 - Spring 2023)</strong></h4>
 ---
-* Collaborated with other researchers in the group to create [COCOpen](https://rmdlo.github.io/COCOpen-OpenCV/), an open-source library that automatically generates datasets of color images with objects of interest, labeled with object instance segmentation masks, bounding boxes, and category identification.
-* Developed a new deformable linear object tracking algorithm, TrackDLO, for robust deformable linear object tracking under occlusion and incomplete data input.
+* Developed a new deformable linear object tracking algorithm, [TrackDLO](https://youtu.be/MxqNJsen5eg), for robust deformable linear object tracking under occlusion. The algorithm is vision-only and does not require external state information from physics modeling, simulation, visual markers, or contact as input.
 * Developed the open-source [TrackDLO ROS (Robot Operating System) package](https://github.com/RMDLO/trackdlo) with the TrackDLO algorithm implemented in C++.
-* Delivered two hour-long research presentations to the Bretl Research Group on the topic of deformable object perception and tracking (Presentation slides: [Fall 2022](https://jingyi-xiang.github.io/assets/pdf/BRG_Fall_2022.pdf), [Spring 2023](https://jingyi-xiang.github.io/assets/pdf/BRG_Spring_2023.pdf)).
 * Completed a [paper](https://ieeexplore.ieee.org/document/10214157) on the TrackDLO algorithm which was accepted into the IEEE Robotics and Automation Letters (RA-L).
+* Collaborated with other researchers in the group to create [COCOpen](https://rmdlo.github.io/COCOpen-OpenCV/), an open-source library that automatically generates datasets of color images with objects of interest, labeled with object instance segmentation masks, bounding boxes, and category identification.
+* Delivered two hour-long research presentations to the Bretl Research Group on the topic of deformable object perception and tracking (Presentation slides: [Fall 2022](https://jingyi-xiang.github.io/assets/pdf/BRG_Fall_2022.pdf), [Spring 2023](https://jingyi-xiang.github.io/assets/pdf/BRG_Spring_2023.pdf)).
 * Completed an [extended abstract](https://jingyi-xiang.github.io/assets/pdf/multidlo.pdf) on simultaneous multi-DLO tracking and presented a [poster](https://jingyi-xiang.github.io/assets/pdf/multi_dlo_poster.pdf) at the IEEE International Conference on Robotics and Automation (ICRA) Workshop on Representing and Manipulating Deformable Objects.
 * Presented a [poster](https://jingyi-xiang.github.io/assets/pdf/poster_urs23.pdf) on the TrackDLO algorithm at the 2023 UIUC Undergraduate Research Symposium.
 
 ##### <u>Images
-<p align="center">
+<!-- <p align="center">
     <img src="../assets/img/dlo.jpg" height="175" /> <img src="../assets/img/multidlo_result.png" height="175" />
-</p>
-<p align="center">
+</p> -->
+<!-- <p align="center">
     <img src="../assets/img/multi_dlo_poster.png" height="278" /> <img src="../assets/img/poster_urs23.png" height="278" />
-</p>
-From left to right, top to bottom:
-1. We ran our TrackDLO algorithm on a rope posed to resemble the word "DLO" (**D**eformable **L**inear **O**bject).
-2. Our [multi-dlo package](https://github.com/RMDLO/multi-dlo) successfully tracks three identical blue ropes twisted together.
-3. Our [poster](https://jingyi-xiang.github.io/assets/pdf/multi_dlo_poster.pdf) presented at the ICRA 2023 Workshop on Representing and Manipulating Deformable Objects.
-4. My [poster](https://jingyi-xiang.github.io/assets/pdf/poster_urs23.pdf) presented at the 2023 UIUC Undergraduate Research Symposium.
+</p> -->
+(1). We ran our TrackDLO algorithm on a rope posed to resemble the word "DLO" (**D**eformable **L**inear **O**bject):
+<img class="center-fit" src="../assets/img/dlo.jpg"/> 
+
+(2). Our [multi-dlo package](https://github.com/RMDLO/multi-dlo) successfully tracks three identical blue ropes twisted together:
+<img class="center-fit" src="../assets/img/multidlo_result.png" />
+
+(3). Our poster presented at the ICRA 2023 Workshop on Representing and Manipulating Deformable Objects:
+<a href="https://jingyi-xiang.github.io/assets/pdf/multi_dlo_poster.pdf"><img class="center-fit" src="../assets/img/multi_dlo_poster.png" />
+
+(4). My poster presented at the 2023 UIUC Undergraduate Research Symposium:
+<a href="https://jingyi-xiang.github.io/assets/pdf/poster_urs23.pdf"><img class="center-fit" src="../assets/img/poster_urs23.png" />
 
 &nbsp;
 
@@ -59,12 +81,11 @@ From left to right, top to bottom:
 * [Final Report](https://jingyi-xiang.github.io/assets/pdf/CS_498_Project_Report.pdf) and [code](https://github.com/jingyi-xiang/bcpd-dlo-tracking).
 
 ##### <u>Images
-<p align="center">
+<!-- <p align="center">
     <img src="../assets/img/gbcpd_tracking.png" height="240" /> <img src="../assets/img/algo_block.png" height="240" />
-</p>
-From left to right, top to bottom:
-1. A demonstration of deformable linear object shape tracking under occlusion.
-2. I attempted to introduce a new cost term into Geodesic-Based Bayesian Coherent Point Drift, but was only able to finish half of the math derivation during the project time frame. I came up with this algorithm to get around the unfinished derivation so I could showcase my results. But this picture is here mainly because I needed two pictures to make the page look nicer.
+</p> -->
+(1). A demonstration of deformable linear object shape tracking under occlusion:
+<img class="center-fit" src="../assets/img/gbcpd_tracking.png" /> 
 
 &nbsp;
 
