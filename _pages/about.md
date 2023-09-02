@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Name pronunciation: Jing-Yi She-aang
+subtitle: Pronounced as Jing-Yi She-aang
 
 profile:
   align: right
