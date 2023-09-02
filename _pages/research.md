@@ -115,8 +115,8 @@ nav_order: 4
 * Selected as one of the 60 participants from a pool of more than 500 applicants to work with a graduate student mentor on research projects.
 * Implemented the [Copy-Paste Augmentation method](https://openaccess.thecvf.com/content/CVPR2021/papers/Ghiasi_Simple_Copy-Paste_Is_a_Strong_Data_Augmentation_Method_for_Instance_CVPR_2021_paper.pdf) in an automated dataset generation process to scale the amount of available training data and to eliminate the time-consuming process of manual image annotation.
 * Identified, implemented, and evaluated two state-of-the-art deformable linear object instance segmentation algorithms ([Ariadne](https://link.springer.com/chapter/10.1007/978-3-030-20890-5_42) and [Ariadne+](https://ieeexplore.ieee.org/abstract/document/9721686)).
-* Used the instance segmentation masks output from Mask R-CNN to segment featureless point clouds in stereo depth imagery.
-* Presented our deformable linear object instance segementation results with an [extended abstract](https://jingyi-xiang.github.io/assets/pdf/wire_segmentation.pdf) at the IEEE International Conference on Robotics and Automation (ICRA) Workshop on Representing and Manipulating Deformable Objects.
+* Used the instance segmentation mask output from Mask R-CNN to segment featureless point clouds in stereo-depth imagery.
+* Presented our deformable linear object instance segmentation results with an [extended abstract](https://jingyi-xiang.github.io/assets/pdf/wire_segmentation.pdf) at the IEEE International Conference on Robotics and Automation (ICRA) Workshop on Representing and Manipulating Deformable Objects.
 * Presented a [poster](https://jingyi-xiang.github.io/assets/pdf/poster_urs22.pdf) at the 2022 UIUC Undergraduate Research Symposium.
 
 ##### <u>Images
@@ -131,7 +131,7 @@ nav_order: 4
 
 &nbsp;
 
-<h4 id="deliverables"><strong>AAll Deliverables</strong></h4>
+<h4 id="deliverables"><strong>All Deliverables</strong></h4>
 ---
 ##### **Code**
 * [TrackDLO](https://github.com/RMDLO/trackdlo) (ROS Package)
