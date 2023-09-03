@@ -33,7 +33,7 @@ nav_order: 6
 ---
 **Game Objective:** [Picking up and stacking plastic cubes](https://youtu.be/_JVQOiw_OUU?si=q_86EvSG9_fqZzCo) \\
 **Robot Videos:** [Playlist](https://www.youtube.com/watch?v=2yH0XbTgVOY&list=PLOVSIsYOyOF3BGpvA9BS9q3m-NSgKIeYY&index=1) \\
-**Global Ranking:** 18th (combined); 4th (programming)
+**Global Ranking:** 18th (combined); 3rd (programming)
 
 **Robot CAD Model:**
 <iframe src="https://myhub.autodesk360.com/ue2f80a7d/shares/public/SHd38bfQT1fb47330c99ec0e6178b2116ec2?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
