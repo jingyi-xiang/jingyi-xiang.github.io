@@ -36,6 +36,8 @@ My current research focuses on developing perception algorithms for robotic mani
 ---
 The goal of multi-object tracking is to identify objects of interest in each frame of a video sequence and associate them across frames to track their movements. Multi-object tracking for deformable linear objects is difficult because objects can entangle with each other, posing great challenges for instance segmentation. Our work introduces an algorithm for tracking the shape of multiple entangling deformable linear objects from an RGB-D video sequence. Instance segmentation (expensive) is only required for the first frame and all subsequent frames run on semantic segmentation (cheap). This is achieved through the use of Global-Local Topology Preservation with geodesic instead of Euclidean distance, which better represents the distance between separate objects and the distance between different parts of the same object. 
 
+(Ongoing work)
+
 <img class="center-fit" src="../assets/img/multi-dlo-tracking.png"/>
 
 &nbsp;
