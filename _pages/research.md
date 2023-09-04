@@ -2,7 +2,7 @@
 layout: page
 permalink: /research/
 title: Research
-description: My research experiences listed in reverse chronological order.
+description: Research projects I worked on.
 nav: true
 nav_order: 4
 ---
@@ -23,111 +23,36 @@ nav_order: 4
     }
 </style>
 
-[Fall 2023 - Spring 2024 (Senior Thesis)](#Fall-2023-Spring-2024) \\
-[Fall 2022 - Spring 2023 (Independent Study)](#Fall-2022-Spring-2023) \\
-[Spring 2023 (Class Project)](#Spring-2023) \\
-[Summer 2022 (ISGC Undergraduate Research Opportunity Program)](#Summer-2022) \\
-[Spring 2022 (Undergraduate Research Apprenticeship Program)](#Spring-2022)
+My current research focuses on developing perception algorithms for robotic manipulation of deformable linear objects (DLOs). Deformable linear objects, such as ropes and cables, are crucial to our everyday lives. However, perception and tracking of deformable objects are more difficult than that of rigid objects because their shapes change under contact. My research can be divided into three stages:
+* [Instance Segmentation](#instance-segmentation)
+* [DLO Shape Tracking Under Occlusion](#single-dlo-shape-tracking)
+* [Simultaneous Shape Tracking of Multiple DLOs](#multi-dlo-shape-tracking)
 
 [All Deliverables](#deliverables)
 
 &nbsp;
 
-<!-- ##### **Senior Thesis (Fall 2023 - Spring 2024)** -->
-<h4 id="Fall-2023-Spring-2024"><strong>Senior Thesis (Fall 2023 - Spring 2024)</strong></h4>
+<h4 id="multi-dlo-shape-tracking"><strong>Simultaneous Shape Tracking of Multiple DLOs</strong></h4>
 ---
-* In progress :)
+The goal of multi-object tracking is to identify objects of interest in each frame of a video sequence and associate them across frames to track their movements. Multi-object tracking for deformable linear objects is difficult because objects can entangle with each other, posing great challenges for instance segmentation. Our work introduces an algorithm for tracking the shape of multiple entangling deformable linear objects from an RGB-D video sequence. Instance segmentation (expensive) is only required for the first frame and all subsequent frames run on semantic segmentation (cheap). This is achieved through the use of Global-Local Topology Preservation with geodesic instead of Euclidean distance, which better represents the distance between separate objects and the distance between different parts of the same object. 
+
+<img class="center-fit" src="../assets/img/multi-dlo-tracking.png"/>
 
 &nbsp;
 
-<!-- ##### **ECE Independent Study with the Bretl Research Group (Fall 2022 - Spring 2023)** -->
-<h4 id="Fall-2022-Spring-2023"><strong>ECE Independent Study with the Bretl Research Group (Fall 2022 - Spring 2023)</strong></h4>
+<h4 id="single-dlo-shape-tracking"><strong>DLO Shape Tracking Under Occlusion</strong></h4>
 ---
-* Developed a new deformable linear object tracking algorithm, [TrackDLO](https://youtu.be/MxqNJsen5eg), for robust deformable linear object tracking under occlusion. The algorithm is vision-only and does not require external state information from physics modeling, simulation, visual markers, or contact as input.
-* Developed the open-source [TrackDLO ROS (Robot Operating System) package](https://github.com/RMDLO/trackdlo) with the TrackDLO algorithm implemented in C++.
-* Completed a [paper](https://ieeexplore.ieee.org/document/10214157) on the TrackDLO algorithm which was accepted into the IEEE Robotics and Automation Letters (RA-L).
-* Collaborated with other researchers in the group to create [COCOpen](https://rmdlo.github.io/COCOpen-OpenCV/), an open-source library that automatically generates datasets of color images with objects of interest, labeled with object instance segmentation masks, bounding boxes, and category identification.
-* Delivered two hour-long research presentations to the Bretl Research Group on the topic of deformable object perception and tracking (Presentation slides: [Fall 2022](https://jingyi-xiang.github.io/assets/pdf/BRG_Fall_2022.pdf), [Spring 2023](https://jingyi-xiang.github.io/assets/pdf/BRG_Spring_2023.pdf)).
-* Completed an [extended abstract](https://jingyi-xiang.github.io/assets/pdf/multidlo.pdf) on simultaneous multi-DLO tracking and presented a [poster](https://jingyi-xiang.github.io/assets/pdf/multi_dlo_poster.pdf) at the IEEE International Conference on Robotics and Automation (ICRA) Workshop on Representing and Manipulating Deformable Objects.
-* Presented a [poster](https://jingyi-xiang.github.io/assets/pdf/poster_urs23.pdf) on the TrackDLO algorithm at the 2023 UIUC Undergraduate Research Symposium.
+Deformable linear object tracking estimates the current state of the object from a sequence of segmented RGB-D images and is crucial to closed-loop manipulation tasks. Known failure cases of deformable linear object tracking include occlusion from other objects and itself. We introduce TrackDLO, a real-time, occlusion-robust deformable linear object tracking algorithm. The TrackDLO algorithm improves on previous approaches by addressing three common scenarios which cause their failure: tip occlusion, mid-section occlusion, and self-occlusion. This is achieved through a combination of: the use of a pre-processing step to preserve the total length of the deformable linear object; the application of Motion Coherence Theory to impute the spatial displacement field of the occluded portion of the object; and the use of the geodesic distance metric to better handle self-occlusion. 
 
-##### <u>Images
-<!-- <p align="center">
-    <img src="../assets/img/dlo.jpg" height="175" /> <img src="../assets/img/multidlo_result.png" height="175" />
-</p> -->
-<!-- <p align="center">
-    <img src="../assets/img/multi_dlo_poster.png" height="278" /> <img src="../assets/img/poster_urs23.png" height="278" />
-</p> -->
-(1). We ran our TrackDLO algorithm on a rope posed to resemble the word "DLO" (**D**eformable **L**inear **O**bject):
-<img class="center-fit" src="../assets/img/dlo.jpg"/> 
-
-(2). Our [multi-dlo package](https://github.com/RMDLO/multi-dlo) successfully tracks three identical blue ropes twisted together:
-<img class="center-fit" src="../assets/img/multidlo_result.png" />
-
-(3). Our poster presented at the ICRA 2023 Workshop on Representing and Manipulating Deformable Objects:
-<a href="https://jingyi-xiang.github.io/assets/pdf/multi_dlo_poster.pdf"><img class="center-fit" src="../assets/img/multi_dlo_poster.png" />
-
-(4). My poster presented at the 2023 UIUC Undergraduate Research Symposium:
-<a href="https://jingyi-xiang.github.io/assets/pdf/poster_urs23.pdf"><img class="center-fit" src="../assets/img/poster_urs23.png" />
+<img class="center-fit" src="../assets/img/single-dlo-tracking.png"/> 
 
 &nbsp;
 
-<!-- ##### **CS 498 Machine Perception Class Project (Spring 2023)** -->
-<h4 id="Spring-2023"><strong>CS 498 Machine Perception Class Project (Spring 2023)</strong></h4>
+<h4 id="instance-segmentation"><strong>Instance Segmentation</strong></h4>
 ---
-* Implemented a recently published non-rigid registration algorithm, [Geodesic-Based Bayesian Coherent Point Drift](https://ieeexplore.ieee.org/abstract/document/9918058), in both Python and C++.
-* Integrated the Geodesic-Based Bayesian Coherent Point Drift algorithm into TrackDLO, the deformable linear object tracking algorithm that was being developed by me during the time, to improve the tracking performance in edge cases.
-* [Final Report](https://jingyi-xiang.github.io/assets/pdf/CS_498_Project_Report.pdf) and [code](https://github.com/jingyi-xiang/bcpd-dlo-tracking).
+Instance segmentation locates and identifies objects of interest in a scene. Using the “Copy-Paste” data augmentation method, we generated a dataset containing 5000 images of ethernet cables and routers. We trained our instance segmentation model using the Detectron2 implementation of Mask R-CNN with the PointRend mask head. The instance segmentation bitmask predicted is directly used to segment the individual object’s 3D point cloud.
 
-##### <u>Images
-<!-- <p align="center">
-    <img src="../assets/img/gbcpd_tracking.png" height="240" /> <img src="../assets/img/algo_block.png" height="240" />
-</p> -->
-(1). A demonstration of deformable linear object shape tracking under occlusion:
-<img class="center-fit" src="../assets/img/gbcpd_tracking.png" /> 
-
-&nbsp;
-
-<!-- ##### **Illinois Space Grant Consortium's Undergraduate Research Opportunity Program (Summer 2022)** -->
-<h4 id="Summer-2022"><strong>Illinois Space Grant Consortium's Undergraduate Research Opportunity Program (Summer 2022)</strong></h4>
----
-* Selected to participate in a paid 10-week summer research program with the Bretl Research Group.
-* Designed and 3D printed custom camera mounts for linking the camera and the robot end-effector.
-* Calibrated our hardware system with fiducial markers and two eye-in-hand camera calibration algorithms: the [Tsai-Lenz method](https://web.archive.org/web/20140211090216id_/http://www-old.me.gatech.edu:80/me6406/handeye.pdf) and a [pose graph optimization based method](https://ieeexplore.ieee.org/abstract/document/8616862).
-* Basing off of point set registration algorithm [Global-Local Topology Preservation](https://www.cv-foundation.org/openaccess/content_cvpr_workshops_2014/W04/papers/Ge_Non-rigid_Point_Set_2014_CVPR_paper.pdf), developed a new method for tracking multiple deformable linear objects simultaneously without continuous instance segmentation.
-* Delivered a 15-minute presentation at the program symposium.
-
-##### <u>Images
-<!-- <p align="center">
-    <img src="../assets/img/wire_stacked_pc.png" height="280" /> <img src="../assets/img/gmm_cpd.png" height="280" />
-</p> -->
-(1). The point cloud of an ethernet cable produced by stitching together several point clouds taken from different perspectives:
-<img class="center-fit" src="../assets/img/wire_stacked_pc.png"/> 
-
-(2). I implemented Gaussian Mixture Model (GMM) clustering and [Coherent Point Drift](https://proceedings.neurips.cc/paper/2006/file/3b2d8f129ae2f408f2153cd9ce663043-Paper.pdf) (CPD) from scratch and compared their performance for point set registration under occlusion:
-<img class="center-fit" src="../assets/img/gmm_cpd.png"/> 
-
-&nbsp;
-
-<!-- ##### **Undergraduate Research Apprenticeship Program (Spring 2022)** -->
-<h4 id="Spring-2022"><strong>Undergraduate Research Apprenticeship Program (Spring 2022)</strong></h4>
----
-* Selected as one of the 60 participants from a pool of more than 500 applicants to work with a graduate student mentor on research projects.
-* Implemented the [Copy-Paste Augmentation method](https://openaccess.thecvf.com/content/CVPR2021/papers/Ghiasi_Simple_Copy-Paste_Is_a_Strong_Data_Augmentation_Method_for_Instance_CVPR_2021_paper.pdf) in an automated dataset generation process to scale the amount of available training data and to eliminate the time-consuming process of manual image annotation.
-* Identified, implemented, and evaluated two state-of-the-art deformable linear object instance segmentation algorithms ([Ariadne](https://link.springer.com/chapter/10.1007/978-3-030-20890-5_42) and [Ariadne+](https://ieeexplore.ieee.org/abstract/document/9721686)).
-* Used the instance segmentation mask output from Mask R-CNN to segment featureless point clouds in stereo-depth imagery.
-* Presented our deformable linear object instance segmentation results with an [extended abstract](https://jingyi-xiang.github.io/assets/pdf/wire_segmentation.pdf) at the IEEE International Conference on Robotics and Automation (ICRA) Workshop on Representing and Manipulating Deformable Objects.
-* Presented a [poster](https://jingyi-xiang.github.io/assets/pdf/poster_urs22.pdf) at the 2022 UIUC Undergraduate Research Symposium.
-
-##### <u>Images
-<!-- <p align="center">
-    <img src="../assets/img/segmentation_rgb_pc.png" height="300" /> <img src="../assets/img/poster_urs22.png" height="300" />
-</p> -->
-(1). The RGB cable instance segmentation result and the corresponding segmented point cloud produced by a trained Mask R-CNN model:
-<img class="center-fit" src="../assets/img/segmentation_rgb_pc.png"/> 
-
-(2). My poster presented at the 2022 UIUC Undergraduate Research Symposium.
-<a href="https://jingyi-xiang.github.io/assets/pdf/poster_urs22.pdf"><img class="center-fit" src="../assets/img/poster_urs22.png" />
+<img class="center-fit" src="../assets/img/segmentation.png"/> 
 
 &nbsp;
 
@@ -142,7 +67,7 @@ nav_order: 4
 ##### **Papers and Reports**
 * [TrackDLO: Tracking Deformable Linear Objects Under Occlusion with Motion Coherence](https://ieeexplore.ieee.org/document/10214157) (RA-L Paper)
 * [Simultaneous Shape Tracking of Multiple Deformable Linear Objects with Global-Local Topology Preservation](https://jingyi-xiang.github.io/assets/pdf/multidlo.pdf) (ICRA Workshop Extended Abstract)
-* [Tracking Deformable Linear Objects in RGB-D Imagery with Geodesic-Based Bayesian Coherent Point Drift](https://jingyi-xiang.github.io/assets/pdf/CS_498_Project_Report.pdf) (Class Project Report)
+* [Tracking Deformable Linear Objects in RGB-D Imagery with Geodesic-Based Bayesian Coherent Point Drift](https://jingyi-xiang.github.io/assets/pdf/CS_498_Project_Report.pdf) (Machine Perception Class Project Report)
 * [Wire Point Cloud Instance Segmentation from RGBD Imagery with Mask R-CNN](https://jingyi-xiang.github.io/assets/pdf/wire_segmentation.pdf) (ICRA Workshop Extended Abstract)
 
 ##### **Presentations**
