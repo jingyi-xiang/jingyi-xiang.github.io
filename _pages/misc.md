@@ -23,6 +23,8 @@ nav_order: 6
     }
 </style>
 
+I competed in the [VEX Robotics Competition](https://www.vexrobotics.com/competition) from 2018 - 2021, an extracurricular activity that eventually sparked my interest in robotics. My team's stats can be found [here](https://vexdb.io/teams/view/97963A?t=skills). 
+
 [2019 - 2020 (Tower Takeover)](#2019-2020) \\
 [2020 - 2021 (Change Up)](#2020-2021)
 
