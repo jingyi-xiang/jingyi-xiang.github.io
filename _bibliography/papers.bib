@@ -1,6 +1,17 @@
 ---
 ---
 
+@article{huang2023kitchen,
+  title={Kitchen Artist: Precise Control of Liquid Dispensing for Gourmet Plating},
+  author={Huang, Hung-Jui and Xiang, Jingyi and Yuan, Wenzhen},
+  journal={arXiv preprint arXiv:2311.12185},
+  year={2023},
+  abstract = {Manipulating liquid is widely required for many tasks, especially in cooking. A common way to address this is extruding viscous liquid from a squeeze bottle. In this work, our goal is to create a sauce plating robot, which requires precise control of the thickness of squeezed liquids on a surface. Different liquids demand different manipulation policies. We command the robot to tilt the container and monitor the liquid response using a force sensor to identify liquid properties. Based on the liquid properties, we predict the liquid behavior with fixed squeezing motions in a data-driven way and calculate the required drawing speed for the desired stroke size. This open-loop system works effectively even without sensor feedback. Our experiments demonstrate accurate stroke size control across different liquids and fill levels. We show that understanding liquid properties can facilitate effective liquid manipulation. More importantly, our dish garnishing robot has a wide range of applications and holds significant commercialization potential.},
+  pdf = {https://arxiv.org/pdf/2311.12185.pdf},
+  preview = {squeezebot.png},
+  selected={true}
+}
+
 @article{xiang2023trackdlo,
   title = {{TrackDLO: Tracking Deformable Linear Objects Under Occlusion with Motion Coherence}},
   author = {Xiang, Jingyi and Dinkel, Holly and Zhao, Harry and Gao, Naixiang and Coltin, Brian and Smith, Trey and Bretl, Timothy},
@@ -21,7 +32,7 @@
 @inproceedings{dinkel2022RMDLO,
     author = {Dinkel*, Holly and Xiang*, Jingyi and Zhao, Harry and Coltin, Brian and Smith, Trey and Bretl, Timothy},
     year = {2022},
-    booktitle={{IEEE ICRA Workshop on Representing and Manipulating Deformable Objects}},
+    booktitle={{Workshop on Representing and Manipulating Deformable Objects, IEEE International Conference on Robotics and Automation (ICRA)}},
     title = {{Wire Point Cloud Instance Segmentation from RGBD Imagery with Mask R-CNN}},
     month = {May},
     abstract = {Perception of the shapes of deforming objects like wires enables their monitoring and manipulation by autonomous robots. This paper presents detection, classification, and instance segmentation of deformable wires from a cluttered scene in RGBD imagery. This work uses the Detectron2 implementation of Mask R-CNN trained with the PointRend mask head on the UIUCWires dataset as the framework for wire instance segmentation on RGB imagery, a method demonstrated to perform well for the instance segmentation task in previous work. In this work, the instance bitmask is directly used to segment individual object point clouds, an important step toward wire shape representation for manipulation tasks.},
@@ -34,7 +45,7 @@
 @inproceedings{xiang2023multidlo,
     author = {Xiang, Jingyi and Dinkel, Holly},
     year = {2023},
-    booktitle={{IEEE ICRA Workshop on Representing and Manipulating Deformable Objects}},
+    booktitle={{Workshop on Representing and Manipulating Deformable Objects, IEEE International Conference on Robotics and Automation (ICRA)}},
     title = {{Simultaneous Shape Tracking of Multiple Deformable Linear Objects with Global-Local Topology Preservation}},
     month = {May},
     abstract = {This work presents an algorithm for tracking the shape of multiple entangling Deformable Linear Objects (DLOs) from a sequence of RGB-D images. This algorithm runs in real-time and improves on previous single-DLO tracking approaches by enabling tracking of multiple objects. This is achieved using Global-Local Topology Preservation (GLTP). This work uses the geodesic distance in GLTP to define the distance between separate objects and the distance between different parts of the same object. Tracking multiple entangling DLOs is demonstrated experimentally. The source code is publicly released. },
