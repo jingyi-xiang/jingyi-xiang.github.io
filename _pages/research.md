@@ -23,7 +23,7 @@ nav_order: 4
     }
 </style>
 
-My current research focuses on developing perception algorithms for robotic manipulation of deformable linear objects (DLOs). Deformable linear objects, such as ropes and cables, are crucial to our everyday lives. However, perception and tracking of deformable objects are more difficult than that of rigid objects because their shapes change under contact. My research can be divided into three stages:
+My undergraduate research work mostly focuses on developing perception algorithms for robotic manipulation of deformable linear objects (DLOs). Deformable linear objects, such as ropes and cables, are crucial to our everyday lives. However, perception and tracking of deformable objects are more difficult than that of rigid objects because their shapes change under contact. My research can be divided into three stages:
 * [Instance Segmentation](#instance-segmentation)
 * [DLO Shape Tracking Under Occlusion](#single-dlo-shape-tracking)
 * [Simultaneous Shape Tracking of Multiple DLOs](#multi-dlo-shape-tracking)

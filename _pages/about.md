@@ -18,11 +18,11 @@ social: true  # includes social icons at the bottom of the page
 
 <!-- bundle exec jekyll serve --lsi -->
 
-I am pursuing a BS in Electrical Engineering at the University of Illinois Urbana-Champaign (graduating in May 2024). For a third of my life I studied music and arts; for another third of my life I dreamed of becoming a theoretical physicist. My current research interests lie in the fields of computer vision and robotic manipulation.
+I am pursuing a B.S. in Electrical Engineering at the University of Illinois Urbana-Champaign (graduating in May 2024). For a third of my life I studied music and arts; for another third of my life I dreamed of becoming a theoretical physicist. My current research interests lie in the fields of robot perception and manipulation.
 
 I have been working with the [Bretl Research Group](http://bretl.csl.illinois.edu/) under the mentorship of Ph.D. candidate [Holly Dinkel](https://hollydinkel.github.io/) since January 2022, where I lead the development of tracking algorithms for deformable linear objects (e.g. ropes and cables). I also work with the [RoboTouch Lab](https://publish.illinois.edu/robotouch/) led by [Prof. Wenzhen Yuan](http://robotouch.ri.cmu.edu/yuanwz/), where I assist with developing a robotic system for precise liquid dispensing.
 <!-- See below for my [publications](https://jingyi-xiang.github.io/publications/) and [Research](https://jingyi-xiang.github.io/research/) for my research experiences. -->
 
-I dedicate a portion of my time to peer mentoring and helping aspiring undergraduate researchers land their first research positions. If you are a fellow undergrad and would like to chat about research, you can schedule a meeting with me through [this portal](https://outlook.office365.com/owa/calendar/AmbassadorMeetings@uillinoisedu.onmicrosoft.com/bookings/).
+I dedicate a portion of my time to peer mentoring and helping aspiring undergraduate researchers land their first research positions. If you are a fellow undergrad and would like to chat about research, feel free to schedule a meeting with me through [this portal](https://outlook.office365.com/owa/calendar/AmbassadorMeetings@uillinoisedu.onmicrosoft.com/bookings/).
 
 &nbsp;
