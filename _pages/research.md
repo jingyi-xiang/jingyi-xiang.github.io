@@ -82,10 +82,7 @@ Instance segmentation locates and identifies objects of interest in a scene. Usi
 &nbsp;
 
 <!-- ##### **Bonus** -->
-<h4 id="Bonus"><strong>Bonus</strong></h4>
+<!-- <h4 id="Bonus"><strong>Bonus</strong></h4>
 ---
 Here is a quick sketch I did while taking a break from research.
-<!-- <p align="left">
-    <img src="../assets/img/sketch.jpg" height="300" /> 
-</p> -->
-<img class="center-fit" src="../assets/img/sketch.jpg"/> 
+<img class="center-fit" src="../assets/img/sketch.jpg"/>  -->
