@@ -22,6 +22,4 @@ I am an undergraduate student studying Electrical Engineering at the University 
 
 I will be joining the [RoboTouch Lab](http://robotouchlab.web.illinois.edu/) at UIUC as a Computer Science Ph.D. student starting Fall 2024, advised by [Prof. Wenzhen Yuan](http://robotouch.ri.cmu.edu/yuanwz/). Previously, I worked with the [Bretl Research Group](http://bretl.csl.illinois.edu/) under the mentorship of Ph.D. candidate [Holly Dinkel](https://hollydinkel.github.io/) as an undergraduate researcher, where I led the development of tracking algorithms for deformable linear objects.
 
-I dedicate a portion of my time to peer mentoring and helping aspiring undergraduate researchers land their first research positions. If you are a fellow undergrad and would like to chat about research, feel free to schedule a meeting with me through [this portal](https://outlook.office365.com/owa/calendar/AmbassadorMeetings@uillinoisedu.onmicrosoft.com/bookings/).
-
 &nbsp;
