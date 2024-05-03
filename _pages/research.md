@@ -80,9 +80,3 @@ Instance segmentation locates and identifies objects of interest in a scene. Usi
 * [Wire Instance Perception from RGBD Imagery with Mask R-CNN](https://jingyi-xiang.github.io/assets/pdf/poster_urs22.pdf) (Poster)
 
 &nbsp;
-
-<!-- ##### **Bonus** -->
-<!-- <h4 id="Bonus"><strong>Bonus</strong></h4>
----
-Here is a quick sketch I did while taking a break from research.
-<img class="center-fit" src="../assets/img/sketch.jpg"/>  -->

@@ -37,7 +37,7 @@ I took a photo of this alley behind my apartment building because it looked inte
 I took a photo of this street because it looked interesting too.
 
 <img class="center-fit" src="../assets/img/street.jpg"/> 
-&nbsp;
+&nbsp; 
 
 Eclipse photos taken in Champaign, Illinois.
 

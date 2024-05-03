@@ -8,14 +8,6 @@ nav_order: 6
 ---
 
 <style>
-    /* * {
-        margin: 0;
-        padding: 0;
-    } */
-    /* .imgbox {
-        display: grid;
-        height: 100%;
-    } */
     .center-fit {
         max-width: 100%;
         max-height: 100vh;
