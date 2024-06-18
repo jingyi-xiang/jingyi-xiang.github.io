@@ -18,8 +18,10 @@ social: true  # includes social icons at the bottom of the page
 
 <!-- bundle exec jekyll serve --lsi -->
 
-I am an undergraduate student studying Electrical Engineering at the University of Illinois Urbana-Champaign with research interests in perception, tactile sensing, and robotic manipulation. 
+I am a first-year computer science Ph.D. student at the University of Illinois Urbana-Champaign, advised by [Prof. Wenzhen Yuan](http://robotouch.ri.cmu.edu/yuanwz/). My research interests include **tactile sensing** and **robotic manipulation**. 
 
-I will be joining the [RoboTouch Lab](http://robotouchlab.web.illinois.edu/) at UIUC as a Computer Science Ph.D. student starting Fall 2024, advised by [Prof. Wenzhen Yuan](http://robotouch.ri.cmu.edu/yuanwz/). Previously, I worked with the [Bretl Research Group](http://bretl.csl.illinois.edu/) under the mentorship of Ph.D. candidate [Holly Dinkel](https://hollydinkel.github.io/) as an undergraduate researcher, where I led the development of tracking algorithms for deformable linear objects.
+Previously, I obtained my B.S. in electrical engineering at UIUC, during which I led the development of tracking algorithms for deformable linear objects at the [Bretl Research Group](http://bretl.csl.illinois.edu/).
+
+Outside of research, I enjoy taking photos and drawing.
 
 &nbsp;

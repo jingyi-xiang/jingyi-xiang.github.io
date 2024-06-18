@@ -36,8 +36,6 @@ My undergraduate research work mostly focuses on developing perception algorithm
 ---
 The goal of multi-object tracking is to identify objects of interest in each frame of a video sequence and associate them across frames to track their movements. Multi-object tracking for deformable linear objects is difficult because objects can entangle with each other, posing great challenges for instance segmentation. Our work introduces an algorithm for tracking the shape of multiple entangling deformable linear objects from an RGB-D video sequence. Instance segmentation (expensive) is only required for the first frame and all subsequent frames run on semantic segmentation (cheap). This is achieved through the use of Global-Local Topology Preservation with geodesic instead of Euclidean distance, which better represents the distance between separate objects and the distance between different parts of the same object. 
 
-(Ongoing work)
-
 <img class="center-fit" src="../assets/img/multi-dlo-tracking.png"/>
 
 &nbsp;
@@ -62,6 +60,7 @@ Instance segmentation locates and identifies objects of interest in a scene. Usi
 ---
 ##### **Code**
 * [TrackDLO](https://github.com/RMDLO/trackdlo) (ROS Package)
+* [TrackDLO+](https://github.com/jingyi-xiang/trackdlo_plus) (ROS Package)
 * [multi-dlo](https://github.com/RMDLO/multi-dlo) (ROS Package)
 * [BCPD for DLO tracking](https://github.com/jingyi-xiang/bcpd-dlo-tracking) (ROS Package)
 * [COCOpen](https://rmdlo.github.io/COCOpen-OpenCV/) (Python Library)
