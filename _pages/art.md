@@ -15,49 +15,48 @@ nav_order: 7
     }
 </style>
 
-[Photography](#photography), [Drawing](#drawing), [Graphic Design](#graphic-design)
-&nbsp;
-
-<h4 id="photography"><strong>Photography</strong></h4>
----
-
-I took a photo of this alley behind my apartment building because it looked interesting.
-
-<img class="center-fit" src="../assets/img/alley.jpg"/> 
-&nbsp;
-
-I took a photo of this street because it looked interesting too.
-
-<img class="center-fit" src="../assets/img/street.jpg"/> 
-&nbsp; 
-
-Eclipse photos taken in Champaign, Illinois.
-
-<img class="center-fit" src="../assets/img/eclipse_1.jpg"/> 
-
-<img class="center-fit" src="../assets/img/eclipse_2.jpg"/> 
-&nbsp;
-
-The four seasons in Champaign. This is one of my earlier projects - taken in the time span of 11 months during my freshman year.
-<img class="center-fit" src="../assets/img/champaign.jpg"/> 
+[Drawing](#drawing), [Photography](#photography), [Graphic Design](#graphic-design)
 &nbsp;
 
 <h4 id="drawing"><strong>Drawing</strong></h4>
 ---
 
-"Home sweet home." This is an old drawing for the thousands of hours I spent in The John Carroll School room 208, "Mostly Robotics Lab". Maybe I will finish this drawing someday.
+WIP drawing from winter 2021, portraying my high school's "Mostly Robotics Lab" before and after my graduation. Home sweet home.
 
-<img class="center-fit" src="../assets/img/208.jpg"/> 
+<img class="center-fit" src="../assets/img/lab.png"/> 
 &nbsp;
 
-Here is a quick sketch I did while taking a break from research during one of those cold 4am mornings.
+A quick sketch I did while taking a break from research. It was a cold 4am morning.
 
 <img class="center-fit" src="../assets/img/sketch.jpg"/>
 &nbsp; 
 
+<h4 id="photography"><strong>Photography</strong></h4>
+---
+
+Star trail photo from winter 2016, my first winter in the United States. It was taken in the backyard of a local family in Maryland that I stayed with :D
+
+<img class="center-fit" src="../assets/img/star_trail_1.png"/> 
+&nbsp;
+
+The four seasons in Champaign, from August 2020 to July 2021.
+
+<img class="center-fit" src="../assets/img/champaign.jpg"/> 
+&nbsp;
+
+Photography class assignments feat. streets near my apartment.
+
+<img class="center-fit" src="../assets/img/streets.jpg"/> 
+&nbsp; 
+
+Eclipse photos taken in Champaign, Illinois.
+
+<img class="center-fit" src="../assets/img/eclipse_all.jpg"/> 
+&nbsp;
+
 <h4 id="graphic-design"><strong>Graphic Design</strong></h4>
 ---
 
-Here are the logos I designed for various teams and projects.
+Logos I designed for various teams and projects.
 
 <img class="center-fit" src="../assets/img/logos.png"/> 
