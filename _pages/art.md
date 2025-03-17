@@ -26,7 +26,7 @@ WIP drawing from winter 2021, portraying my high school's "Mostly Robotics Lab" 
 <img class="center-fit" src="../assets/img/lab.png"/> 
 &nbsp;
 
-A quick sketch I did while taking a break from research. It was a cold 4am morning.
+Stuff I drew when I took breaks from research.
 
 <img class="center-fit" src="../assets/img/sketch.jpg"/>
 &nbsp; 
