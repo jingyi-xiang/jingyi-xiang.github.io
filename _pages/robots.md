@@ -50,11 +50,13 @@ I competed in the [VEX Robotics Competition](https://www.vexrobotics.com/competi
 &nbsp;
 
 ##### **Other Things**
-
 ---
 [Robot code](https://github.com/jingyi-xiang/non_holonomic_control) from past seasons; [Guides](https://github.com/jingyi-xiang/vrc_resources) written by me
 
-- - -
+&nbsp;
+
+<!-- Photos from my competition career: -->
+
 <img class="center-fit" src="../assets/img/medals.jpg"/> 
 
 <img class="center-fit" src="../assets/img/trophies.jpg"/> 

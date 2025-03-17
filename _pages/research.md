@@ -23,6 +23,19 @@ nav_order: 4
     }
 </style>
 
+
+<h3 id="current-research"><strong>Current Research</strong></h3>
+---
+
+This section will be updated whenever I publish my first paper.
+
+&nbsp;
+
+
+<h3 id="undergrad-research"><strong>Undergraduate Research</strong></h3>
+---
+
+
 My undergraduate research work mostly focuses on developing perception algorithms for robotic manipulation of deformable linear objects (DLOs). Deformable linear objects, such as ropes and cables, are crucial to our everyday lives. However, perception and tracking of deformable objects are more difficult than that of rigid objects because their shapes change under contact. My research can be divided into three stages:
 * [Instance Segmentation](#instance-segmentation)
 * [DLO Shape Tracking Under Occlusion](#single-dlo-shape-tracking)
