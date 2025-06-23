@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 <!-- bundle exec jekyll serve --lsi -->
 
-I am a first-year computer science Ph.D. student at the University of Illinois Urbana-Champaign, advised by [Prof. Wenzhen Yuan](https://siebelschool.illinois.edu/about/people/all-faculty/yuanwz). My research interests include **tactile sensing** and **robotic manipulation**. 
+I am a second-year CS Ph.D. student in the [RoboTouch Lab](https://robotouchlab.web.illinois.edu/) at the University of Illinois Urbana-Champaign, advised by [Prof. Wenzhen Yuan](https://siebelschool.illinois.edu/about/people/all-faculty/yuanwz). My research interests include **tactile sensing** and **robotic manipulation**. 
 
 I obtained my B.S. in electrical engineering at UIUC with Highest Honor, during which I led the development of deformable linear object tracking algorithms while working with [Prof. Timothy Bretl](http://bretl.csl.illinois.edu/).
 
