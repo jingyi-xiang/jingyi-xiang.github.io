@@ -27,7 +27,7 @@ nav_order: 4
 <h3 id="current-research"><strong>Current Research</strong></h3>
 ---
 
-This section will be updated whenever I publish my first paper.
+Currently working on some very exciting stuff about tactile sensing and contact-rich manipulation. I will update this section when the paper is published.
 
 &nbsp;
 
