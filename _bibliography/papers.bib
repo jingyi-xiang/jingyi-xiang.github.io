@@ -1,6 +1,32 @@
 ---
 ---
 
+@article{xiang2026contactbench,
+  title = {{ContactBench 1.0: A Benchmark for Everyday Contact-Rich Robotic Manipulation}},
+  author = {Xiang, Jingyi and Wang, Yixuan and Bohg, Jeannette and Yuan, Wenzhen},
+  journal = {Preprint},
+  year = {2026},
+  month = {October},
+  abstract = {Contact-rich manipulation underlies many everyday human activities, yet evaluating robots on such tasks remains difficult: the tasks involve diverse contact behaviors and are hard to reproduce across laboratories. Drawing on observations of everyday human manipulation, we identify eight essential skills that provide a practical framework for studying contact-rich manipulation. We introduce ContactBench 1.0, an extensible benchmark that instantiates these skills through 36 reference tasks and more than 40 object assets. The assets capture task-relevant geometry and contact behavior, can be fabricated reproducibly on consumer-grade 3D printers, and are each paired with a matching simulation model. Controlled task variations in both the real world and simulation enable evaluation of how well robot systems generalize. We evaluate recent representative vision-only and visual-tactile policy learning methods on six benchmark tasks. The results reveal that while vision-only policies struggle to perceive or react to contact events, visual-tactile policies do not meaningfully improve their performance, highlighting that contact-rich manipulation remains a significant challenge for current policy learning methods. By providing common task definitions alongside physical and simulated assets, ContactBench 1.0 offers a shared testbed for developing, evaluating, and comparing contact-rich manipulation systems. The benchmark will be open-sourced at https://jingyi-xiang.github.io/contactbench.},
+  pdf = {https://jingyi-xiang.github.io/contactbench/website_assets/pdf/contact-rich-manipulation-benchmark.pdf},
+  project = {https://jingyi-xiang.github.io/contactbench/},
+  preview = {contactbench.png},
+  selected={true}
+}
+
+@article{xiang2026tactile,
+  title = {{Tactile-Based Robotic Manipulation: From Mechanics-Driven to Data-Driven Perspectives}},
+  author = {Xiang, Jingyi and Wang, Yixuan and Yuan, Wenzhen},
+  journal = {Annual Review of Control, Robotics, and Autonomous Systems},
+  abbr = {Annual Reviews},
+  year = {2026},
+  month = {October},
+  doi = {10.1146/annurev-control-032125-030330},
+  abstract = {Tactile sensing provides robots with direct access to physical interactions at the contact interface, making it a critical modality for robust and dexterous manipulation. Over the past several decades, tactile-based manipulation research has evolved from mechanics-driven approaches, which explicitly interpret tactile signals through contact mechanics and task-specific reasoning, to data-driven approaches that learn tactile representations and manipulation policies directly from data. This article reviews the development of tactile-based manipulation from these two complementary perspectives. We first introduce the fundamentals of tactile sensing and then review, from a mechanics-driven perspective, how those signals form manipulation-relevant state representations and subsequently influence the robot action. We then examine the recent advances in data-driven tactile manipulation, covering imitation learning, reinforcement learning, vision--language--action models, and predictive models. Finally, we discuss open challenges and future opportunities toward scalable, generalizable, and robust tactile-enabled robotic systems.},
+  pdf = {https://www.annualreviews.org/content/journals/10.1146/annurev-control-032125-030330},
+  selected={true}
+}
+
 @inproceedings{huang2023kitchen,
   year = {2024},
   booktitle = {{IEEE International Conference on Robotics and Automation (ICRA)}},
@@ -59,5 +85,5 @@
     preview = {multidlo.png},
     video = {https://youtu.be/hfiqwMxitqA},
     poster = {multi_dlo_poster.pdf},
-    selected={true}
+    selected={false}
 }
